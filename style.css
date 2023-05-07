@@ -1,5 +1,5 @@
 /* Reset default margin and padding */
-body, h1, h2, p, ul {
+body, h1, h2, p {
   margin: 0;
   padding: 0;
 }
@@ -11,62 +11,32 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Add some space to the header */
+/* Style the header */
 header {
+  background-color: #333;
   padding: 20px;
+  color: #fff;
 }
 
-/* Style the navigation menu */
-nav ul {
-  list-style-type: none;
-  margin-top: 10px;
+h1 {
+  font-size: 36px;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 10px;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-nav ul li a:hover {
-  text-decoration: underline;
-}
-
-/* Add some spacing and styling to the main sections */
+/* Style the main content */
 main {
   padding: 20px;
 }
 
-h1 {
-  color: #333;
-  font-size: 36px;
-  margin-bottom: 20px;
-}
-
 h2 {
-  color: #333;
   font-size: 24px;
+  color: #333;
   margin-bottom: 10px;
 }
 
 p {
-  color: #666;
   font-size: 16px;
   line-height: 1.5;
-}
-
-ul {
-  list-style-type: disc;
   color: #666;
-  font-size: 16px;
-  line-height: 1.5;
-  margin-left: 30px;
 }
 
 /* Style the footer */
